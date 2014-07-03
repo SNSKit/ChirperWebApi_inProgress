@@ -1,0 +1,11 @@
+﻿    <span ng-init="getUsers();"></span>
+    <table class="table table-bordered table-striped">
+        <tr ng-repeat="User in Users" ng-click="showDetails(User.Id);">
+            <td>{{User.UserName}}</td>
+            <td><img ng-src="{{User.Image}}" height="100" /></td>
+        </tr>
+    </table>
+
+
+
+

@@ -1,0 +1,18 @@
+﻿<h2>{{title}}</h2>
+<input type="text" placeholder="Chirp here" ng-model="Message"/><br />
+<input type="text" placeholder="Author name" ng-model="Author" /><br/>
+<button class="btn btn-primary" ng-click="addChirp(Message, Author)">Add Chirp</button><br/>
+
+<button class="btn btn-info" ng-click="getChirps()">Show Chirps</button>
+<table class="table table-bordered table-striped table-hover table-responsive">
+    <thead>
+        <tr>
+            <th>Chirp</th>
+            <th>Author</th>
+        </tr>
+    </thead>
+    <tr ng-repeat="Message in Messages" ng-click="seeProfile();">
+        <td>{{Message.Message}}</td>
+        <td>{{Message.Author}}</td>
+    </tr>
+</table>

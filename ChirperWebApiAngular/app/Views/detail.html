@@ -1,0 +1,27 @@
+﻿
+    <h2>{{title}}</h2>
+    <div>
+        <h3>{{User.UserName}}</h3>
+    </div>
+    <div>
+        <img class="img-responsive img-rounded" ng-src="{{User.Image}}" />
+    </div>
+    <div>
+        <h4>Name: {{User.Name}}</h4>
+        <h4>Email: {{User.Email}}</h4>
+        <h4>Chirps:</h4>
+        <table class="table table-bordered table-striped">
+            <tr ng-repeat="Message in Messages">
+                <td>{{Message.Message}}</td>
+                <!--<td>{{Message.SentAt}}</td>-->
+            </tr>
+        </table>
+        <button class="btn btn-success" ng-click="showFriends(User.Id);">Friends</button>
+    </div>
+<div>
+    <table>
+        <tr ng-repeat="Follower in Followers">
+        <td>{{Follower.Name}}</td>
+        </tr>
+    </table>
+</div>

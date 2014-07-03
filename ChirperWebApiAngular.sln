@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30602.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChirperWebApiAngular", "ChirperWebApiAngular\ChirperWebApiAngular.csproj", "{18820CC5-1595-4FBC-8374-988422FCC6F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chirper.Data", "Chirper.Data\Chirper.Data.csproj", "{19462D43-43BD-4971-9062-4E434007F4B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chirper.Data.Models", "Chirper.Data.Models\Chirper.Data.Models.csproj", "{4EFC58D5-6DBB-4199-B116-8A8BD2E52069}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18820CC5-1595-4FBC-8374-988422FCC6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18820CC5-1595-4FBC-8374-988422FCC6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18820CC5-1595-4FBC-8374-988422FCC6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18820CC5-1595-4FBC-8374-988422FCC6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19462D43-43BD-4971-9062-4E434007F4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19462D43-43BD-4971-9062-4E434007F4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19462D43-43BD-4971-9062-4E434007F4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19462D43-43BD-4971-9062-4E434007F4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFC58D5-6DBB-4199-B116-8A8BD2E52069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFC58D5-6DBB-4199-B116-8A8BD2E52069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFC58D5-6DBB-4199-B116-8A8BD2E52069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFC58D5-6DBB-4199-B116-8A8BD2E52069}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
